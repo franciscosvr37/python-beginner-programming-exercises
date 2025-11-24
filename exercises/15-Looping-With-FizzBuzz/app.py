@@ -1,5 +1,24 @@
 def fizz_buzz():
     # ✅↓ Write your code here ↓✅
-
+    for i in range(1,101):
+        if i % 5 == 0 and i % 3 == 0 : 
+            print("FizzBuzz")
+            continue
+        if i % 3 == 0 : 
+            print("Fizz")
+            continue
+        if i % 5 == 0 : 
+            print("Buzz")
+            continue
+        print(i)
+    print("=====================")
+    for i in range(1,101):
+        if i % 5 == 0 and i % 3 == 0 : 
+            print("FizzBuzz")
+        elif i % 3 == 0 : 
+            print("Fizz")
+        elif i % 5 == 0 : 
+            print("Buzz")
+        else : print(i)
 # ❌↓ DON'T CHANGE THE CODE BELOW ↓❌
 fizz_buzz()
